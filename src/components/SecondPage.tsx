@@ -1,16 +1,17 @@
-import UserTable from "./Table";
-import Departments from "./Departments";
+
 import { Box } from "@mui/material";
 import { Divider } from "@mui/material";
+import DepartmentList from "./DepartmentList";
+import Table from "./Table";
 
 const SecondPage = () => {
   return (
     <>
-      <UserTable />
+      <Table />
       <Box sx={{ height: 200 }} />
       <Divider />
       <Box sx={{ height: 100 }} />
-      <Departments />
+      <DepartmentList />
     </>
   );
 };

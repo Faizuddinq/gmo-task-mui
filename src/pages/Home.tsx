@@ -1,5 +1,5 @@
 import Table from "../components/Table";
-import Departments from "../components/Departments";
+// import Departments from "../components/Departments";
 import { Box, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import DepartmentList from "../components/DepartmentList";
